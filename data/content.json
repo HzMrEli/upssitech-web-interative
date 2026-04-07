@@ -1,0 +1,334 @@
+{
+  "site": {
+    "name": "UPSSITECH",
+    "fullName": "École d'Ingénieurs en Informatique, Réseaux et Télécommunications",
+    "tagline": "Former les ingénieurs de demain",
+    "description": "UPSSITECH est une école d'ingénieurs publique et sélective, membre de l'Université Toulouse III – Paul Sabatier. Elle délivre un diplôme d'ingénieur dans les domaines de l'informatique, des réseaux et des télécommunications.",
+    "phone": "+33 (0)5 61 55 67 00",
+    "email": "contact@upssitech.eu",
+    "address": "118 Route de Narbonne, 31062 Toulouse Cedex 9",
+    "socialLinks": {
+      "linkedin": "https://www.linkedin.com/school/upssitech/",
+      "twitter": "https://twitter.com/UPSSITECH",
+      "youtube": "https://www.youtube.com/channel/UCupssitech",
+      "instagram": "https://www.instagram.com/upssitech/"
+    }
+  },
+  "nav": {
+    "links": [
+      { "label": "Accueil", "href": "#accueil" },
+      { "label": "À Propos", "href": "#apropos" },
+      { "label": "Formations", "href": "#formations" },
+      { "label": "Recherche", "href": "#recherche" },
+      { "label": "International", "href": "#international" },
+      { "label": "Vie Étudiante", "href": "#vie-etudiante" },
+      { "label": "Actualités", "href": "#actualites" },
+      { "label": "Contact", "href": "#contact" }
+    ]
+  },
+  "hero": {
+    "title": "UPSSITECH",
+    "subtitle": "École d'Ingénieurs en Informatique,\nRéseaux & Télécommunications",
+    "description": "Une formation d'excellence au cœur de Toulouse, classée parmi les meilleures écoles d'ingénieurs publiques de France.",
+    "cta": [
+      { "label": "Découvrir nos formations", "href": "#formations", "primary": true },
+      { "label": "Candidater", "href": "https://www.upssitech.eu/candidatures", "primary": false }
+    ],
+    "stats": [
+      { "value": "3", "label": "Spécialités" },
+      { "value": "700+", "label": "Étudiants" },
+      { "value": "95%", "label": "Taux d'emploi" },
+      { "value": "40+", "label": "Pays partenaires" }
+    ]
+  },
+  "about": {
+    "title": "À Propos de UPSSITECH",
+    "subtitle": "Une école publique d'excellence",
+    "description": "Fondée sous l'égide de l'Université Toulouse III – Paul Sabatier, UPSSITECH forme depuis plus de 30 ans des ingénieurs hautement qualifiés dans les domaines du numérique. Nos diplômés occupent des postes clés dans des entreprises françaises et internationales.",
+    "highlights": [
+      {
+        "icon": "🎓",
+        "title": "Formation d'excellence",
+        "text": "Programme en 5 ans (2 ans de classe préparatoire ou DUT + 3 ans d'école), accrédité CTI."
+      },
+      {
+        "icon": "🔬",
+        "title": "Recherche de pointe",
+        "text": "Liens étroits avec les laboratoires de recherche de l'Université Paul Sabatier et les grandes entreprises du numérique."
+      },
+      {
+        "icon": "🌍",
+        "title": "Ouverture internationale",
+        "text": "Partenariats avec plus de 40 universités à travers le monde. Semestre ou année d'échange encouragés."
+      },
+      {
+        "icon": "💼",
+        "title": "Insertion professionnelle",
+        "text": "95% de nos diplômés trouvent un emploi dans les 6 mois suivant leur diplomation."
+      }
+    ]
+  },
+  "formations": {
+    "title": "Nos Formations",
+    "subtitle": "Trois spécialités pour préparer votre avenir",
+    "description": "UPSSITECH propose trois spécialités en troisième année, permettant aux étudiants de se spécialiser dans le domaine de leur choix.",
+    "items": [
+      {
+        "id": "sr",
+        "code": "SR",
+        "title": "Systèmes et Réseaux",
+        "icon": "🌐",
+        "color": "#003063",
+        "description": "Administration des systèmes d'information, architecture réseau, sécurité informatique et Cloud computing.",
+        "skills": ["Administration Linux/Windows", "Réseaux IP & protocoles", "Cybersécurité", "Cloud & Virtualisation", "DevOps"],
+        "duration": "3 ans",
+        "level": "Bac+5 / Master",
+        "accreditation": "Diplôme CTI"
+      },
+      {
+        "id": "irt",
+        "code": "IRT",
+        "title": "Ingénierie des Réseaux et Télécommunications",
+        "icon": "📡",
+        "color": "#E84B23",
+        "description": "Conception et déploiement d'infrastructures télécom, réseaux mobiles, IoT et technologies sans fil.",
+        "skills": ["Réseaux mobiles 4G/5G", "Protocoles télécom", "Internet des Objets (IoT)", "Réseaux sans fil", "Qualité de Service"],
+        "duration": "3 ans",
+        "level": "Bac+5 / Master",
+        "accreditation": "Diplôme CTI"
+      },
+      {
+        "id": "gi",
+        "code": "GI",
+        "title": "Génie Informatique",
+        "icon": "💻",
+        "color": "#0073BC",
+        "description": "Développement logiciel, intelligence artificielle, big data, et gestion de projets informatiques complexes.",
+        "skills": ["Développement Full-Stack", "Intelligence Artificielle", "Big Data & Analytics", "Génie Logiciel", "Gestion de Projet"],
+        "duration": "3 ans",
+        "level": "Bac+5 / Master",
+        "accreditation": "Diplôme CTI"
+      }
+    ]
+  },
+  "recherche": {
+    "title": "Recherche & Innovation",
+    "subtitle": "Au cœur de l'innovation numérique",
+    "description": "UPSSITECH entretient des liens étroits avec les laboratoires de recherche de l'Université Paul Sabatier et les centres de R&D des grandes entreprises du numérique installées à Toulouse.",
+    "labs": [
+      {
+        "name": "IRIT",
+        "fullName": "Institut de Recherche en Informatique de Toulouse",
+        "icon": "🔬",
+        "description": "L'un des plus grands laboratoires français en informatique, avec 700 chercheurs et enseignants-chercheurs."
+      },
+      {
+        "name": "LAAS",
+        "fullName": "Laboratoire d'Analyse et d'Architecture des Systèmes",
+        "icon": "⚙️",
+        "description": "Recherches en automatique, informatique et robotique pour les systèmes embarqués critiques."
+      },
+      {
+        "name": "ISAE-SUPAERO",
+        "fullName": "Partenariat avec l'ISAE-SUPAERO",
+        "icon": "🚀",
+        "description": "Collaborations sur les projets avionique, systèmes embarqués et communication spatiale."
+      }
+    ],
+    "themes": [
+      { "icon": "🤖", "label": "Intelligence Artificielle" },
+      { "icon": "🔒", "label": "Cybersécurité" },
+      { "icon": "📶", "label": "5G & Télécom" },
+      { "icon": "☁️", "label": "Cloud Computing" },
+      { "icon": "🌐", "label": "Internet des Objets" },
+      { "icon": "📊", "label": "Big Data" }
+    ]
+  },
+  "international": {
+    "title": "International",
+    "subtitle": "Une ouverture sur le monde",
+    "description": "UPSSITECH encourage fortement la mobilité internationale. Nos partenariats avec plus de 40 universités à travers le monde permettent à nos étudiants de vivre une expérience internationale enrichissante.",
+    "programs": [
+      {
+        "icon": "🇪🇺",
+        "title": "Programme Erasmus+",
+        "description": "Semestre ou année d'études dans une université européenne partenaire, avec bourse Erasmus."
+      },
+      {
+        "icon": "🌏",
+        "title": "Double Diplôme",
+        "description": "Obtenez un double diplôme avec une université partenaire en Europe, Amérique ou Asie."
+      },
+      {
+        "icon": "🏢",
+        "title": "Stage à l'Étranger",
+        "description": "Effectuez votre stage de fin d'études dans l'une des nombreuses entreprises internationales partenaires."
+      },
+      {
+        "icon": "🎒",
+        "title": "Étudiants Étrangers",
+        "description": "Chaque année, des étudiants du monde entier rejoignent UPSSITECH pour enrichir notre communauté."
+      }
+    ],
+    "partners": [
+      { "country": "🇩🇪", "name": "Allemagne", "count": "5 universités" },
+      { "country": "🇪🇸", "name": "Espagne", "count": "6 universités" },
+      { "country": "🇮🇹", "name": "Italie", "count": "4 universités" },
+      { "country": "🇬🇧", "name": "Royaume-Uni", "count": "3 universités" },
+      { "country": "🇨🇦", "name": "Canada", "count": "4 universités" },
+      { "country": "🇧🇷", "name": "Brésil", "count": "3 universités" },
+      { "country": "🇨🇳", "name": "Chine", "count": "5 universités" },
+      { "country": "🇯🇵", "name": "Japon", "count": "2 universités" },
+      { "country": "🇲🇦", "name": "Maroc", "count": "4 universités" },
+      { "country": "🇹🇳", "name": "Tunisie", "count": "3 universités" }
+    ]
+  },
+  "studentLife": {
+    "title": "Vie Étudiante",
+    "subtitle": "Bien plus qu'une école",
+    "description": "La vie étudiante à UPSSITECH est riche et dynamique. Associations, clubs, événements sportifs et culturels... Il y en a pour tous les goûts !",
+    "clubs": [
+      {
+        "icon": "💻",
+        "name": "UPS Hack",
+        "category": "Informatique",
+        "description": "Club de hacking éthique et de CTF (Capture The Flag). Participations aux concours nationaux et internationaux."
+      },
+      {
+        "icon": "🤖",
+        "name": "RoboUPS",
+        "category": "Robotique",
+        "description": "Conception et programmation de robots pour la Coupe de France de Robotique."
+      },
+      {
+        "icon": "🎮",
+        "name": "UPS eSport",
+        "category": "eSport",
+        "description": "Équipes compétitives sur différents jeux. Organisation de tournois et LAN parties."
+      },
+      {
+        "icon": "🎸",
+        "name": "UPS Music",
+        "category": "Culture",
+        "description": "Répétitions, concerts, et jam sessions ouverts à tous les musiciens de l'école."
+      },
+      {
+        "icon": "⚽",
+        "name": "UPS Sport",
+        "category": "Sport",
+        "description": "Nombreuses disciplines sportives disponibles : football, basket, volley, natation et plus encore."
+      },
+      {
+        "icon": "🌱",
+        "name": "UPS Vert",
+        "category": "Environnement",
+        "description": "Sensibilisation aux enjeux environnementaux et actions concrètes pour un campus plus durable."
+      }
+    ],
+    "events": [
+      {
+        "icon": "🏆",
+        "name": "Gala Annuel",
+        "description": "La soirée de l'année ! Gala de fin d'études avec remise des diplômes et festivités."
+      },
+      {
+        "icon": "🎓",
+        "name": "Forum Emploi",
+        "description": "Rencontrez des recruteurs des meilleures entreprises du numérique en France."
+      },
+      {
+        "icon": "🔧",
+        "name": "Hackathon UPSSITECH",
+        "description": "48h pour concevoir et développer un projet innovant en équipe."
+      }
+    ]
+  },
+  "news": {
+    "title": "Actualités",
+    "subtitle": "Restez informés",
+    "items": [
+      {
+        "date": "2026-03-15",
+        "category": "Formation",
+        "title": "Ouverture des candidatures 2026-2027",
+        "excerpt": "Les candidatures pour la rentrée 2026-2027 sont désormais ouvertes. Retrouvez toutes les informations sur notre page dédiée.",
+        "image": null
+      },
+      {
+        "date": "2026-02-28",
+        "category": "Événement",
+        "title": "Hackathon 2026 : 48h pour innover",
+        "excerpt": "Le hackathon annuel de UPSSITECH a réuni plus de 200 participants autour de défis technologiques passionnants.",
+        "image": null
+      },
+      {
+        "date": "2026-02-10",
+        "category": "International",
+        "title": "Nouveau partenariat avec l'Université de Tokyo",
+        "excerpt": "UPSSITECH renforce son rayonnement international avec un accord de double diplôme avec l'Université de Tokyo.",
+        "image": null
+      },
+      {
+        "date": "2026-01-20",
+        "category": "Recherche",
+        "title": "Publication dans IEEE Communications",
+        "excerpt": "Des chercheurs de UPSSITECH publient des travaux novateurs sur les réseaux 6G dans la revue IEEE Communications.",
+        "image": null
+      },
+      {
+        "date": "2025-12-15",
+        "category": "Vie étudiante",
+        "title": "UPS Hack remporte le CTF National",
+        "excerpt": "Notre équipe de hacking éthique remporte la première place au Championnat National de CTF étudiants.",
+        "image": null
+      },
+      {
+        "date": "2025-11-30",
+        "category": "Classement",
+        "title": "UPSSITECH dans le Top 10 des écoles d'ingénieurs",
+        "excerpt": "Pour la troisième année consécutive, UPSSITECH figure dans le Top 10 des meilleures écoles d'ingénieurs publiques.",
+        "image": null
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Nous sommes là pour vous",
+    "info": [
+      {
+        "icon": "📍",
+        "label": "Adresse",
+        "value": "118 Route de Narbonne\n31062 Toulouse Cedex 9"
+      },
+      {
+        "icon": "📞",
+        "label": "Téléphone",
+        "value": "+33 (0)5 61 55 67 00"
+      },
+      {
+        "icon": "✉️",
+        "label": "Email",
+        "value": "contact@upssitech.eu"
+      },
+      {
+        "icon": "🕐",
+        "label": "Horaires",
+        "value": "Lundi - Vendredi\n8h30 - 17h30"
+      }
+    ],
+    "form": {
+      "namePlaceholder": "Votre nom",
+      "emailPlaceholder": "Votre email",
+      "subjectPlaceholder": "Sujet",
+      "messagePlaceholder": "Votre message",
+      "submitLabel": "Envoyer le message",
+      "subjects": [
+        "Candidature",
+        "Information sur les formations",
+        "Partenariat entreprise",
+        "International",
+        "Autre"
+      ]
+    }
+  }
+}

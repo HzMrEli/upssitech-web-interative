@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UPSSITECH – École d'Ingénieurs en Informatique, Réseaux et Télécommunications de Toulouse." />
+  <meta name="theme-color" content="#003063" />
+  <title>UPSSITECH – École d'Ingénieurs</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar" role="navigation" aria-label="Navigation principale">
+      <a href="#accueil" class="nav-logo" aria-label="UPSSITECH – Accueil">
+        <span class="logo-main">UPSSI</span><span class="logo-accent">TECH</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <ul class="nav-menu" id="navMenu" role="list">
+        <!-- populated by JS from data/content.json -->
+      </ul>
+
+      <a href="#contact" class="btn btn-nav">Candidater</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="accueil" aria-label="Accueil">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-shape hero-shape--1"></div>
+      <div class="hero-shape hero-shape--2"></div>
+      <div class="hero-shape hero-shape--3"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">École Publique d'Ingénieurs · Toulouse</div>
+        <h1 class="hero-title" id="heroTitle"></h1>
+        <p class="hero-subtitle" id="heroSubtitle"></p>
+        <p class="hero-description" id="heroDescription"></p>
+        <div class="hero-cta" id="heroCta"></div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card hero-card--1">
+          <span class="hero-card-icon">🎓</span>
+          <span class="hero-card-text">Accrédité CTI</span>
+        </div>
+        <div class="hero-card hero-card--2">
+          <span class="hero-card-icon">🏆</span>
+          <span class="hero-card-text">Top 10 Écoles Publiques</span>
+        </div>
+        <div class="hero-card hero-card--3">
+          <span class="hero-card-icon">🌍</span>
+          <span class="hero-card-text">40+ Partenaires Mondiaux</span>
+        </div>
+        <div class="hero-circle-outer">
+          <div class="hero-circle-inner">
+            <span class="hero-circle-logo">UPSSI<br/>TECH</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-stats container" id="heroStats"></div>
+    <a href="#apropos" class="scroll-hint" aria-label="Défiler vers le bas">
+      <div class="scroll-hint-dot"></div>
+    </a>
+  </section>
+
+  <!-- ===== À PROPOS ===== -->
+  <section class="section" id="apropos" aria-labelledby="aboutTitle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Qui sommes-nous ?</span>
+        <h2 class="section-title" id="aboutTitle"></h2>
+        <p class="section-subtitle" id="aboutSubtitle"></p>
+      </div>
+      <p class="about-description" id="aboutDescription"></p>
+      <div class="highlight-grid" id="highlightGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== FORMATIONS ===== -->
+  <section class="section section--alt" id="formations" aria-labelledby="formationsTitle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nos Programmes</span>
+        <h2 class="section-title" id="formationsTitle"></h2>
+        <p class="section-subtitle" id="formationsSubtitle"></p>
+      </div>
+      <p class="section-description" id="formationsDescription"></p>
+      <div class="formations-grid" id="formationsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== RECHERCHE ===== -->
+  <section class="section" id="recherche" aria-labelledby="rechercheTitle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Science & Technologie</span>
+        <h2 class="section-title" id="rechercheTitle"></h2>
+        <p class="section-subtitle" id="rechercheSubtitle"></p>
+      </div>
+      <p class="section-description" id="rechercheDescription"></p>
+      <div class="labs-grid" id="labsGrid"></div>
+      <div class="themes-section">
+        <h3 class="themes-title">Thématiques de Recherche</h3>
+        <div class="themes-grid" id="themesGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERNATIONAL ===== -->
+  <section class="section section--alt" id="international" aria-labelledby="internationalTitle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Ouverture Mondiale</span>
+        <h2 class="section-title" id="internationalTitle"></h2>
+        <p class="section-subtitle" id="internationalSubtitle"></p>
+      </div>
+      <p class="section-description" id="internationalDescription"></p>
+      <div class="programs-grid" id="programsGrid"></div>
+      <div class="partners-section">
+        <h3 class="partners-title">Nos Partenaires Internationaux</h3>
+        <div class="partners-grid" id="partnersGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VIE ÉTUDIANTE ===== -->
+  <section class="section" id="vie-etudiante" aria-labelledby="studentLifeTitle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Campus & Associations</span>
+        <h2 class="section-title" id="studentLifeTitle"></h2>
+        <p class="section-subtitle" id="studentLifeSubtitle"></p>
+      </div>
+      <p class="section-description" id="studentLifeDescription"></p>
+      <div class="clubs-tabs">
+        <div class="clubs-grid" id="clubsGrid"></div>
+      </div>
+      <div class="events-section">
+        <h3 class="events-title">Événements Phares</h3>
+        <div class="events-grid" id="eventsGrid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACTUALITÉS ===== -->
+  <section class="section section--alt" id="actualites" aria-labelledby="newsTitle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dernières Nouvelles</span>
+        <h2 class="section-title" id="newsTitle"></h2>
+        <p class="section-subtitle" id="newsSubtitle"></p>
+      </div>
+      <div class="news-grid" id="newsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact" aria-labelledby="contactTitle">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Écrivez-nous</span>
+        <h2 class="section-title" id="contactTitle"></h2>
+        <p class="section-subtitle" id="contactSubtitle"></p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info" id="contactInfo"></div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactName">Nom complet *</label>
+                <input type="text" id="contactName" name="name" required autocomplete="name" />
+                <span class="form-error" id="nameError"></span>
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Email *</label>
+                <input type="email" id="contactEmail" name="email" required autocomplete="email" />
+                <span class="form-error" id="emailError"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contactSubject">Sujet *</label>
+              <select id="contactSubject" name="subject" required>
+                <option value="">-- Choisissez un sujet --</option>
+              </select>
+              <span class="form-error" id="subjectError"></span>
+            </div>
+            <div class="form-group">
+              <label for="contactMessage">Message *</label>
+              <textarea id="contactMessage" name="message" rows="5" required></textarea>
+              <span class="form-error" id="messageError"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+              <span class="btn-text">Envoyer le message</span>
+              <span class="btn-icon">→</span>
+            </button>
+            <div class="form-success" id="formSuccess" role="alert" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#accueil" class="footer-logo" aria-label="UPSSITECH – Retour à l'accueil">
+            <span class="logo-main">UPSSI</span><span class="logo-accent">TECH</span>
+          </a>
+          <p class="footer-tagline" id="footerTagline"></p>
+          <div class="footer-social" id="footerSocial"></div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Formations</h4>
+            <ul>
+              <li><a href="#formations">Systèmes & Réseaux</a></li>
+              <li><a href="#formations">Ingénierie Télécom</a></li>
+              <li><a href="#formations">Génie Informatique</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>École</h4>
+            <ul>
+              <li><a href="#apropos">À Propos</a></li>
+              <li><a href="#recherche">Recherche</a></li>
+              <li><a href="#international">International</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Étudiants</h4>
+            <ul>
+              <li><a href="#vie-etudiante">Vie Étudiante</a></li>
+              <li><a href="#actualites">Actualités</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="footerYear"></span> UPSSITECH – Université Toulouse III – Paul Sabatier. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+          <a href="#">Accessibilité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Retour en haut de page">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
